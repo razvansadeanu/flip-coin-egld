@@ -1,22 +1,23 @@
 import * as React from 'react';
 import Actions from './Actions';
 import TopInfo from './TopInfo';
-import Transactions from './Transactions';
+import Coin from './Coin';
 
 const Dashboard = () => {
   return (
     <div className='container py-4'>
       <div className='row'>
         <div className='col-12 col-md-10 mx-auto'>
-          <div className='card shadow-sm rounded border-0'>
-            <div className='card-body p-1'>
-              <div className='card rounded border-0 bg-primary'>
+          <div className='shadow-sm rounded border-0'>
+            <div className='card-body1 p-1'>
+              <div className='rounded border-0'>
                 <div className='card-body text-center p-4'>
-                  <TopInfo />
-                  <Actions />
+                  {/* <TopInfo /> */}
+                  {/* <Actions /> */}
                 </div>
               </div>
-              <Transactions />
+              {/* <Transactions /> */}
+              <Coin />
             </div>
           </div>
         </div>
